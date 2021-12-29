@@ -11,6 +11,7 @@ export default function ExpenseItem({ date, title, amount }) {
         <h2>{title}</h2>
         <div className="expense-item__price">R$ {amount}</div>
       </div>
+      <button>Change Title</button>
     </Card>
   );
 }
